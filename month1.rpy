@@ -2213,3 +2213,96 @@ label month1_week1_day4:
             jump chapter_select
         "Carry on.":
             jump month1_week1_day5
+label month1_week1_day4_moraalmostkill:
+	scene bg living room day
+	with fade
+	"I wake up."
+	"It's a new day..."
+	"I stand up, stretching."
+	"Mora walks in shortly after."
+	show mora casual ponytail normal
+	mora "Good morning..."
+	my "Good morning."
+	my "Did you sleep at all?"
+	mora "No."
+	mora "I already told you not to worry."
+	my "Eh... I can't help it."
+	mora "Well."
+	mora "I'm making breakfast."
+	my "Okay..."
+	my "I'll call into work again."
+	mora "Okay."
+	hide mora
+	with moveoutleft
+	"I grab the phone and dial work again."
+	centered "{color=000000}{size=50}{b}10 minutes later...{/b}{/size}{/color}"
+	mora "Breakfast is done!"
+	"She calls from the kitchen."
+	
+	scene bg kitchen day
+	with fade
+	show mora casual ponytail normal
+	"I enter the kitchen."
+	"Breakfast is waiting for me."
+	mora "It's eggs on toast today."
+	my "Yum..."
+	"I take a seat."
+	"She sits next to me."
+	"We eat."
+	"It's still rather awkward between us..."
+	"She doesn't seem as scared of me now, at least..."
+	"I hope I can redeem myself."
+	"I'll try my best...!"
+	hide mora
+	centered "{color=000000}{size=50}{b}5 minutes later...{/b}{/size}{/color}"
+	show mora casual ponytail normal
+	"We finish our food."
+	"Mora grabs the plates and washes them."
+	"We then return to the room."
+	
+	scene bg living room day
+	with fade
+	show mora casual ponytail normal
+	my "Hey, Mora, I was wondering..."
+	mora "What?"
+	my "Could we go out somewhere today?"
+	my "Like... A park or something?"
+	my "Since I don't have work..."
+	mora "I don't see why not."
+	mora "Let me get dressed."
+	my "Is your uniform dry now?"
+	mora "It has been washed and dried, yes."
+	my "Good."
+	mora "I will be back shortly."
+	hide mora
+	with moveoutright
+	"Mora leaves."
+	"I straighten myself up, ready to leave."
+	"I should probably grab my stuff from my home, if I'm moving here..."
+	"Like clothes and stuff..."
+	centered "{color=000000}{size=50}{b}A few minutes later...{/b}{/size}{/color}"
+	show mora arbiter normal
+	with moveinright
+	"Mora returns."
+	mora "Ready to go?"
+	my "Yep!"
+	mora "Let's go, then."
+	
+	scene black # I need to find a park background
+	with fade
+	show mora arbiter normal
+	"We arrive at a nearby park."
+	"The weather is actually fairly nice, for January, ignoring the cold wind."
+	"We walk around quietly for a while, just taking in the scenery."
+	"It's nice..."
+	"Eventually, my legs get tired."
+	"We sit down on a bench."
+	show mora arbiter eyes_closed normal
+	"Mora closes her eyes, taking some deep breaths."
+	"I decide to do the same."
+	my "This is so refreshing..."
+	mora "Yes..."
+	"We stay like this for a while, just taking in the moment."
+	"It's the calmest I've been in a while."
+	"Mora seems really relaxed too."
+	"I'm glad about that."
