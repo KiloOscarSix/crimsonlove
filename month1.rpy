@@ -2259,7 +2259,7 @@ label month1_week1_day4_moraalmostkill:
     "We finish our food."
     "Mora grabs the plates and washes them."
     "We then return to the room."
-	
+
     scene bg living room day
     with fade
     show mora casual ponytail normal
@@ -2287,7 +2287,7 @@ label month1_week1_day4_moraalmostkill:
     mora "Ready to go?"
     my "Yep!"
     mora "Let's go, then."
-	
+
     scene black # I need to find a park background
     with fade
     show mora arbiter normal
