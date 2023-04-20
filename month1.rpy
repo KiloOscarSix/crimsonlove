@@ -88,7 +88,7 @@ label chapter1_day1:
     "Employee" "It's fine, don't worry!"
     "I set down my umbrella and take off my coat."
     "Time to get to work."
-    "My first day in my new job..."
+    "The first day of the New Year in my job..."
     "As a stage manager..."
     "Some idol is performing here today, for a New Years concert."
     "I clap my hands, getting everyone's attention."
