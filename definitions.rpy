@@ -14,6 +14,9 @@ default month1_week1_day3_moraumbrella = False
 define flash = Fade(.25, 0.0, .75, color="#fff")
 transform t_xpos(x):
   xpos x
+default mora_hobbies_unlock = False
+default mora_job_unlock = False
+default mora_workenjoy_failed_unlock = False
 
 ### CHARACTER DEFINITIONS ###
 define my = Character("Myself", image="mc")
