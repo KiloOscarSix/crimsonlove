@@ -1,4 +1,4 @@
-label month1_week1_day1:
+label chapter1_day1:
     scene black
     with fade
     centered "Day 1 - Monday 1st January."
@@ -22,7 +22,7 @@ label month1_week1_day1:
     "It's not easy making friends, when you're a loner like me."
     "I didn't really choose to be this way. I just keep to myself and people don't bother to notice me."
     "It's a blessing, really, I don't like attention all too much..."
-    centered "{color=000000}{size=50}{b}Half an hour later...{/b}{/size}{/color}"
+    "{b}{u}Half an hour later...{/u}{/b}"
     "The train is gathering more people as the journey goes on."
     "It's getting pretty packed now. I'm glad I got a seat earlier."
     "???" "Excuse me?"
@@ -42,13 +42,13 @@ label month1_week1_day1:
     "She takes a seat next to me."
     "The journey continues in silence."
     hide zena
-    centered "{color=000000}{size=50}{b}Ten minutes later...{/b}{/size}{/color}"
+    "{b}{u}Ten minutes later...{/u}{/b}"
     show zena newstudent eyes_closed normal
     "The girl has fallen asleep."
     "I wanted to talk to her... It's boring on this ride."
     "It shouldn't be too much longer, anyways."
     hide zena
-    centered "{color=000000}{size=50}{b}Another ten minutes later...{/b}{/size}{/color}"
+    "{b}{u}Another ten minutes later...{/u}{/b}"
     show zena newstudent eyes_closed normal
     "Train Announcer" "We will now be arriving in: Chisick."
     "Ah. My stop."
@@ -95,7 +95,7 @@ label month1_week1_day1:
     my "Okay, everyone, let's begin setting the stage!"
     scene bg stage
     with flash
-    centered "{color=000000}{size=50}{b}A few hours later...{/b}{/size}{/color}"
+    "{b}{u}A few hours later...{/u}{/b}"
     "Finally, after hours of work, it's done."
     "The idol group has arrived already, and are waiting backstage."
     "I decide to pay them a visit with my free time."
@@ -179,7 +179,7 @@ label month1_week1_day1:
     "Something..."
     scene bg stage
     with fade
-    centered "{color=000000}{size=50}{b}A few hours later...{/b}{/size}{/color}"
+    "{b}{u}A few hours later...{/u}{/b}"
     show amari idol normal at left
     show angela idol normal at center
     show zena idol normal at right
@@ -257,16 +257,16 @@ label month1_week1_day1:
     "I go to bed, buzzing with excitement."
     window hide
     centered "End of day."
-    $ month1_week1_day2_avail = True
-    menu month1_week1_day1_end:
+    $ chapter1_day2_avail = True
+    menu chapter1_day1_end:
         "Day 1 complete!"
         "Would you like to return to the chapter selection screen, or carry onto the next day?"
         "Chapter selection.":
             jump chapter_select
         "Carry on.":
-            jump month1_week1_day2
+            jump chapter1_day2
 
-label month1_week1_day2:
+label chapter1_day2:
     scene black
     with fade
     centered "Day 2 - Tuesday 2nd January."
@@ -343,7 +343,7 @@ label month1_week1_day2:
     "The train ride continues."
     hide angela
     hide zena
-    centered "{color=000000}{size=50}{b}Ten minutes later...{/b}{/size}{/color}"
+    "{b}{u}Ten minutes later...{/u}{/b}"
     show angela casual normal at left
     show zena newstudent normal at right
     "The train announcer lets us know it's our stop."
@@ -394,7 +394,7 @@ label month1_week1_day2:
     "It's all going well."
     "I've always been told I'm a good manager..."
     "I wonder..."
-    centered "{color=000000}{size=50}{b}2 hours later...{/b}{/size}{/color}"
+    "{b}{u}2 hours later...{/u}{/b}"
     my "Okay everyone, well done!"
     my "The maintenance was all successful!"
     "Cheers from the team."
@@ -530,7 +530,7 @@ label month1_week1_day2:
     "I await her return."
     window hide
     pause 1.0
-    centered "{color=000000}{size=50}{b}A few minutes later...{/b}{/size}{/color}"
+    "{b}{u}A few minutes later...{/u}{/b}"
     show mora arbiter normal
     with moveinleft
     "She returns, carrying a plate with a wrap in one hand, and a glass with water in the other."
@@ -567,7 +567,7 @@ label month1_week1_day2:
     with moveoutright
     "She leaves."
     "I wait patiently for her to return."
-    centered "{color=000000}{size=50}{b}15 minutes later...{/b}{/size}{/color}"
+    "{b}{u}15 minutes later...{/u}{/b}"
     show mora arbiter no_coat normal
     with moveinright
     mora "I'm finished now."
@@ -644,12 +644,12 @@ label month1_week1_day2:
     "I'm probably stronger than her. She looks young."
     "I could push her in, and even if she attempted to stop me, she'd lose her balance."
     "It's a win-win."
-    menu month1_week1_day2_menu1:
+    menu chapter1_day2_menu1:
         "Push her in.":
-            jump month1_week1_day2_menu1_answer1
+            jump chapter1_day2_menu1_answer1
         "Leave her be.":
-            jump month1_week1_day2_menu1_answer2
-label month1_week1_day2_menu1_answer1:
+            jump chapter1_day2_menu1_answer2
+label chapter1_day2_menu1_answer1:
     "I approach her."
     "She stares at me."
     "That cold glare..."
@@ -675,12 +675,12 @@ label month1_week1_day2_menu1_answer1:
     show mora arbiter no_coat normal
     mora "You can't hurt me."
     my "Oh?"
-    menu month1_week1_day2_menu2:
+    menu chapter1_day2_menu2:
         "Trap her underwater.":
-            jump month1_week1_day2_menu2_answer1
+            jump chapter1_day2_menu2_answer1
         "Leave her be.":
-            jump month1_week1_day2_menu2_answer2
-label month1_week1_day2_menu2_answer1:
+            jump chapter1_day2_menu2_answer2
+label chapter1_day2_menu2_answer1:
     "I stand over her. She looks up at me with that same dead stare."
     "I can't stop myself."
     "The anger is burning inside of me, wanting to erupt."
@@ -715,12 +715,12 @@ label month1_week1_day2_menu2_answer1:
     "She kidnapped me!"
     "She made me terrified for my own life!"
     "Why should she get away unharmed?!"
-    menu month1_week1_day2_menu3:
+    menu chapter1_day2_menu3:
         "Kill her.":
-            jump month1_week1_day2_menu3_answer1
+            jump chapter1_day2_menu3_answer1
         "Let her go.":
-            jump month1_week1_day2_menu3_answer2
-label month1_week1_day2_menu3_answer1:
+            jump chapter1_day2_menu3_answer2
+label chapter1_day2_menu3_answer1:
     $ mora_death = True
     "I tighten my grip."
     "Pushing her firmly under."
@@ -744,7 +744,7 @@ label month1_week1_day2_menu3_answer1:
     with fade
     centered "END."
     pause 1.0
-label month1_week1_day2_menu3_answer2:
+label chapter1_day2_menu3_answer2:
     "I let go of her head."
     show mora arbiter no_coat normal
     with hpunch
@@ -774,16 +774,16 @@ label month1_week1_day2_menu3_answer2:
     scene black
     with fade
     centered "End of day."
-    $ month1_week1_day3_avail = True
+    $ chapter1_day3_avail = True
     $ mora_almost_kill = True
-    menu month1_week1_day2_end:
+    menu chapter1_day2_end:
         "Day 2 complete!"
         "Would you like to return to the chapter selection screen, or carry onto the next day?"
         "Chapter selection.":
             jump chapter_select
         "Carry on.":
-            jump month1_week1_day3
-label month1_week1_day2_menu2_answer2:
+            jump chapter1_day3
+label chapter1_day2_menu2_answer2:
     "I let out a frustrated sigh."
     my "Whatever, it doesn't matter."
     "I step away."
@@ -861,10 +861,10 @@ label month1_week1_day2_menu2_answer2:
     scene black
     with fade
     centered "End of day."
-    $ month1_week1_day3_avail = True
+    $ chapter1_day3_avail = True
     $ mora_push = True
-    jump month1_week1_day2_end
-label month1_week1_day2_menu1_answer2:
+    jump chapter1_day2_end
+label chapter1_day2_menu1_answer2:
     "I shake the thought away."
     "There wouldn't be much point in doing that..."
     "I finish getting changed and exit the bathroom."
@@ -885,18 +885,18 @@ label month1_week1_day2_menu1_answer2:
     scene black
     with fade
     centered "End of day."
-    $ month1_week1_day3_avail = True
-    jump month1_week1_day2_end
+    $ chapter1_day3_avail = True
+    jump chapter1_day2_end
 
-label month1_week1_day3:
+label chapter1_day3:
     scene black
     with fade
     centered "Day 3 - Wednesday 3rd January."
     pause 1.0
     if mora_push == True:
-        jump month1_week1_day3_morapush
+        jump chapter1_day3_morapush
     if mora_almost_kill == True:
-        jump month1_week1_day3_moraalmostkill
+        jump chapter1_day3_moraalmostkill
     ###
     scene bg living room day
     with fade
@@ -1029,7 +1029,7 @@ label month1_week1_day3:
     my "Okay!"
     "I begin work."
     hide mora
-    centered "{color=000000}{size=50}{b}A few hours later...{/b}{/size}{/color}"
+    "{b}{u}A few hours later...{/u}{/b}"
     "I work rather focusedly, considering what happened yesterday."
     "The day goes by rather quickly."
     "Eventually, it's the end of the day."
@@ -1058,10 +1058,10 @@ label month1_week1_day3:
     my "But you're getting soaked..."
     mora "Don't worry."
     my "Eh..."
-    menu month1_week1_day3_menu1:
+    menu chapter1_day3_menu1:
         "Give her the umbrella.":
             $ mora_affection += 2
-            $ month1_week1_day3_moraumbrella = True
+            $ chapter1_day3_moraumbrella = True
             my "Fine."
             my "If you're gonna be stubborn..."
             "I pass the umbrella to her."
@@ -1092,20 +1092,20 @@ label month1_week1_day3:
     with fade
     show mora arbiter eyes_closed normal
     "We return back to her place."
-    if not month1_week1_day3_moraumbrella:
+    if not chapter1_day3_moraumbrella:
         "She stands there, soaking wet, and I do feel a bit of guilt, but it {i}was{/i} her choice..."
     my "Mind if I crash here again? My house is so far away..."
     mora "Do what you like."
     my "Thanks..."
     hide mora
     with moveoutright
-    if not month1_week1_day3_moraumbrella:
+    if not chapter1_day3_moraumbrella:
         "She leaves, I assume to go dry off."
     else:
         "She leaves, I assume to change out of her uniform."
     "I flop onto the couch, feeling exhausted."
     "I decide to watch a bit of TV to kill time."
-    centered "{color=000000}{size=50}{b}An hour later...{/b}{/size}{/color}"
+    "{b}{u}An hour later...{/u}{/b}"
     show mora casual ponytail normal
     "It's been about an hour."
     "Mora came back at some point, and we've just been sitting watching the TV."
@@ -1121,7 +1121,7 @@ label month1_week1_day3:
     with moveoutleft
     "She heads into the kitchen."
     "I continue watching TV for now."
-    centered "{color=000000}{size=50}{b}30 minutes later...{/b}{/size}{/color}"
+    "{b}{u}30 minutes later...{/u}{/b}"
     mora "Dinner is done!"
     "She calls from the kitchen."
     "I turn the TV off and head into the kitchen."
@@ -1179,18 +1179,18 @@ label month1_week1_day3:
     "I curl up onto the sofa."
     "I'm so tired, I go to sleep almost immediately again..."
     window hide
-    $ month1_week1_day4_avail = True
+    $ chapter1_day4_avail = True
     scene black
     with fade
     centered "End of day."
-    menu month1_week1_day3_end:
+    menu chapter1_day3_end:
         "Day 3 complete!"
         "Would you like to return to the chapter selection screen, or carry onto the next day?"
         "Chapter selection.":
             jump chapter_select
         "Carry on.":
-            jump month1_week1_day4
-label month1_week1_day3_morapush:
+            jump chapter1_day4
+label chapter1_day3_morapush:
     scene bg living room day
     with fade
     "I open my eyes."
@@ -1398,7 +1398,7 @@ label month1_week1_day3_morapush:
     my "Okay!"
     "I begin work."
     hide mora
-    centered "{color=000000}{size=50}{b}A few hours later...{/b}{/size}{/color}"
+    "{b}{u}A few hours later...{/u}{/b}"
     "I work rather focusedly, considering what happened yesterday."
     "The day goes by rather quickly."
     "Eventually, it's the end of the day."
@@ -1424,7 +1424,7 @@ label month1_week1_day3_morapush:
     "I flop onto the couch, feeling exhausted."
     "I decide to watch a bit of TV to kill time."
     hide mora
-    centered "{color=000000}{size=50}{b}An hour later...{/b}{/size}{/color}"
+    "{b}{u}An hour later...{/u}{/b}"
     show mora arbiter no_coat normal
     "It's been about an hour."
     "Mora got out of her coat at some point, and we've just been sitting watching the TV."
@@ -1440,7 +1440,7 @@ label month1_week1_day3_morapush:
     with moveoutleft
     "She heads into the kitchen."
     "I continue watching TV for now."
-    centered "{color=000000}{size=50}{b}30 minutes later...{/b}{/size}{/color}"
+    "{b}{u}30 minutes later...{/u}{/b}"
     mora "Dinner is done!"
     "She calls from the kitchen."
     "I turn the TV off and head into the kitchen."
@@ -1498,12 +1498,12 @@ label month1_week1_day3_morapush:
     "I curl up onto the sofa."
     "I'm so tired, I go to sleep almost immediately again..."
     window hide
-    $ month1_week1_day4_avail = True
+    $ chapter1_day4_avail = True
     scene black
     with fade
     centered "End of day."
-    jump month1_week1_day3_end
-label month1_week1_day3_moraalmostkill:
+    jump chapter1_day3_end
+label chapter1_day3_moraalmostkill:
     scene bg living room day
     with fade
     "I open my eyes."
@@ -1743,7 +1743,7 @@ label month1_week1_day3_moraalmostkill:
 
     scene black
     with fade
-    centered "{b}30 minutes later...{/b}"
+    centered "{b}{u}30 minutes later...{/u}{/b}"
 
     scene bg living room day
     with fade
@@ -1768,7 +1768,7 @@ label month1_week1_day3_moraalmostkill:
     "She types away on her laptop in the background."
     "It's the first time I've seen her do anything that resembles actual work..."
     "She's more like a host, really..."
-    centered "{color=000000}{size=50}{b}2 hours later...{/b}{/size}{/color}"
+    "{b}{u}2 hours later...{/u}{/b}"
     "It's been a couple of hours."
     "The movie finishes."
     "It was really great... I was totally captivated for the whole thing."
@@ -1816,14 +1816,14 @@ label month1_week1_day3_moraalmostkill:
     "It's nice."
     "I eat happily."
     "She continues sleeping."
-    centered "{color=000000}{size=50}{b}A few hours later...{/b}{/size}{/color}"
+    "{b}{u}A few hours later...{/u}{/b}"
     "It's been a few hours."
     "I watched another movie, and started a TV show I've been meaning to watch."
     "She's continued to sleep."
     "She must've been exhausted..."
     scene bg living room night
     with flash
-    centered "{color=000000}{size=50}{b}A few more hours later...{/b}{/size}{/color}"
+    "{b}{u}A few more hours later...{/u}{/b}"
     "It's getting rather late now."
     "I'm a bit concerned."
     "She hasn't moved at all..."
@@ -1876,7 +1876,7 @@ label month1_week1_day3_moraalmostkill:
     mora "Don't worry about me."
     my "If you say so..."
     "She begins making a small meal for us both."
-    centered "{color=000000}{size=50}{b}15 minutes later...{/b}{/size}{/color}"
+    "{b}{u}15 minutes later...{/u}{/b}"
     mora "It's done."
     "She hands me a plate of fishcake, fries and mushy peas."
     "She sits down next to me, and we eat."
@@ -1953,19 +1953,19 @@ label month1_week1_day3_moraalmostkill:
     "I don't care how she feels."
     "I finally begin to slip into slumber."
     window hide
-    $ month1_week1_day4_avail = True
+    $ chapter1_day4_avail = True
     scene black
     with fade
     centered "End of day."
-    jump month1_week1_day3_end
+    jump chapter1_day3_end
 
-label month1_week1_day4:
+label chapter1_day4:
     scene black
     with fade
     centered "Day 4 - Thursday 4th January."
     pause 1.0
     if mora_almost_kill == True:
-        jump month1_week1_day4_moraalmostkill
+        jump chapter1_day4_moraalmostkill
     ###
     scene bg living room day
     with fade
@@ -2135,7 +2135,7 @@ label month1_week1_day4:
 
     scene black
     with fade
-    centered "A few hours later..."
+    centered "{b}{u}A few hours later...{/u}{/b}"
 
     scene bg stage
     with fade
@@ -2157,7 +2157,7 @@ label month1_week1_day4:
     hide mora
     with moveoutleft
     "She leaves."
-    centered "{color=000000}{size=50}{b}20 minutes later...{/b}{/size}{/color}"
+    "{b}{u}20 minutes later...{/u}{/b}"
     mora "It's done!"
     "She calls from the kitchen."
     "I stand up."
@@ -2178,7 +2178,7 @@ label month1_week1_day4:
     "At least she's helping me keep on top of my hydration..."
     "I feel a lot better recently..."
     "We eat."
-    centered "{color=000000}{size=50}{b}10 minutes later...{/b}{/size}{/color}"
+    "{b}{u}10 minutes later...{/u}{/b}"
     "We're finished."
     "She grabs the plates, and washes them."
     "I stand up, brushing off stray crumbs."
@@ -2203,18 +2203,18 @@ label month1_week1_day4:
     "She leaves."
     "I curl up on the sofa, falling asleep immediately again..."
     window hide
-    $ month1_week1_day5_avail = True
+    $ chapter1_day5_avail = True
     scene black
     with fade
     centered "End of day."
-    menu month1_week1_day4_end:
+    menu chapter1_day4_end:
         "Day 4 complete!"
         "Would you like to return to the chapter selection screen, or carry onto the next day?"
         "Chapter selection.":
             jump chapter_select
         "Carry on.":
-            jump month1_week1_day5
-label month1_week1_day4_moraalmostkill:
+            jump chapter1_day5
+label chapter1_day4_moraalmostkill:
     scene bg living room day
     with fade
     "I wake up."
@@ -2236,7 +2236,7 @@ label month1_week1_day4_moraalmostkill:
     hide mora
     with moveoutleft
     "I grab the phone and dial work again."
-    centered "{color=000000}{size=50}{b}10 minutes later...{/b}{/size}{/color}"
+    "{b}{u}10 minutes later...{/u}{/b}"
     mora "Breakfast is done!"
     "She calls from the kitchen."
 
@@ -2255,7 +2255,7 @@ label month1_week1_day4_moraalmostkill:
     "I hope I can redeem myself."
     "I'll try my best...!"
     hide mora
-    centered "{color=000000}{size=50}{b}5 minutes later...{/b}{/size}{/color}"
+    "{b}{u}5 minutes later...{/u}{/b}"
     show mora casual ponytail normal
     "We finish our food."
     "Mora grabs the plates and washes them."
@@ -2281,7 +2281,7 @@ label month1_week1_day4_moraalmostkill:
     "I straighten myself up, ready to leave."
     "I should probably grab my stuff from my home, if I'm moving here..."
     "Like clothes and stuff..."
-    centered "{color=000000}{size=50}{b}A few minutes later...{/b}{/size}{/color}"
+    "{b}{u}A few minutes later...{/u}{/b}"
     show mora arbiter normal
     with moveinright
     "Mora returns."
@@ -2347,7 +2347,7 @@ label month1_week1_day4_moraalmostkill:
     my "Haha..."
     "I call a waiter over, and they take our order."
     "While we're waiting, I decide to try to converse with her, to get to know her better."
-    menu month1_week1_day4_moraalmostkill_menu1:
+    menu chapter1_day4_moraalmostkill_menu1:
         "What are your hobbies?" if not mora_hobbies_unlock:
             $ mora_hobbies_unlock = True
             my "Hey, Mora, what are your hobbies?"
@@ -2359,7 +2359,7 @@ label month1_week1_day4_moraalmostkill:
             my "Ah, that's a start!"
             my "I like reading too!"
             mora "Oh."
-            jump month1_week1_day4_moraalmostkill_menu1
+            jump chapter1_day4_moraalmostkill_menu1
         "What does your job entail?" if not mora_job_unlock:
             $ mora_job_unlock = True
             my "Hey, what exactly does your job entail?"
@@ -2380,7 +2380,7 @@ label month1_week1_day4_moraalmostkill:
             my "I think I understand."
             my "Well... Thank you for being honest with me. It helps."
             mora "Mhm."
-            jump month1_week1_day4_moraalmostkill_menu1
+            jump chapter1_day4_moraalmostkill_menu1
         "Do you enjoy your work?" if not mora_workenjoy_failed_unlock:
             $ mora_workenjoy_failed_unlock = True
             my "Do you enjoy your work, Mora?"
@@ -2391,7 +2391,7 @@ label month1_week1_day4_moraalmostkill:
             my "Aw..."
             my "Okay then."
             "I got quickly shot down on that one..."
-        "Done."
+        "Done.":
             pass
     "Finally, our food arrives."
     "I thank the waiter, and we dig in."
@@ -2443,7 +2443,7 @@ label month1_week1_day4_moraalmostkill:
     "She heads to the table."
     my "Don't fall asleep again!"
     "I laugh."
-    centered "{color=000000}{size=50}{b}A couple of hours later...{/b}{/size}{/color}"
+    "{b}{u}A couple of hours later...{/u}{/b}"
     "I've been sitting on the sofa, watching more TV."
     "Mora has been super focused on her work."
     "No sleeping today, haha."
@@ -2470,7 +2470,7 @@ label month1_week1_day4_moraalmostkill:
     my "Right... Let's see what we've got here..."
     "I grab a few different ingredients from a few cupboards."
     "Time to get to work."
-    centered "{color=000000}{size=50}{b}30 minutes later...{/b}{/size}{/color}"
+    "{b}{u}30 minutes later...{/u}{/b}"
     my "Dinner is done!"
     "I call out to her."
     show mora arbiter no_coat normal
@@ -2518,7 +2518,7 @@ label month1_week1_day4_moraalmostkill:
 
     scene bg living room night
     with fade
-    centered "{color=000000}{size=50}{b}A couple of hours later...{/b}{/size}{/color}"
+    "{b}{u}A couple of hours later...{/u}{/b}"
     "It's been a few hours."
     "I've watched more TV, and she continued working."
     "Finally, I switch off the TV, and head to where Mora is sat."
@@ -2536,19 +2536,19 @@ label month1_week1_day4_moraalmostkill:
     "I head back to the sofa and curl up, closing my eyes."
     "Sleep soon comes."
     window hide
-    $ month1_week1_day5_avail = True
+    $ chapter1_day5_avail = True
     scene black
     with fade
     centered "End of day."
-    jump month1_week1_day4_end
+    jump chapter1_day4_end
 
-label month1_week1_day5:
+label chapter1_day5:
     scene black
     with fade
     centered "Day 5 - Friday 5th January."
     pause 1.0
     if mora_almost_kill == True:
-        jump month1_week1_day5_moraalmostkill
+        jump chapter1_day5_moraalmostkill
     ###
     scene bg living room day
     with fade
@@ -2603,7 +2603,7 @@ label month1_week1_day5:
     "It feels odd hearing her say that."
     "Not that I'm complaining."
     hide mora
-    centered "{color=000000}{size=50}{b}A few hours later...{/b}{/size}{/color}"
+    "{b}{u}A few hours later...{/u}{/b}"
     "Work goes by easily."
     "No problems today."
     "I pack up and head to Mora."
@@ -2651,7 +2651,7 @@ label month1_week1_day5:
     mora "Perhaps it is the best idea for you to move in, then."
     my "Yeah, haha."
     hide mora
-    centered "{color=000000}{size=50}{b}An hour later...{/b}{/size}{/color}"
+    "{b}{u}An hour later...{/u}{/b}"
     show mora arbiter normal
     "The train announcer announces my stop, finally."
     "We head off."
@@ -2713,7 +2713,7 @@ label month1_week1_day5:
     my "In my opinion at least, ahaha."
     "We both give our orders to the waiter, and wait patiently for our food."
     hide mora
-    centered "{color=000000}{size=50}{b}30 minutes later...{/b}{/size}{/color}"
+    "{b}{u}30 minutes later...{/u}{/b}"
     show mora arbiter normal
     "Eventually, our food arrives."
     "It doesn't take too long."
@@ -2783,15 +2783,13 @@ label month1_week1_day5:
     scene black
     with fade
     centered "End of day."
-    $ month1_week1_day6_avail = True
-    menu month1_week1_day5_end:
+    $ chapter2_avail = True
+    menu chapter1_day5_end:
         "Day 5 complete!"
-        "Would you like to return to the chapter selection screen, or carry onto the next day?"
+        "{b}Carry on option is not available due to Chapter Completion.{/b}"
         "Chapter selection.":
             jump chapter_select
-        "Carry on.":
-            jump month1_week1_day6
-label month1_week1_day5_moraalmostkill:
+label chapter1_day5_moraalmostkill:
     scene bg living room day
     with fade
     "I wake up."
@@ -2853,7 +2851,7 @@ label month1_week1_day5_moraalmostkill:
     "Oh well. If she says she's fine, then I'll have to trust her."
     "I sit down on the couch, turning on the TV."
     "Time to continue that show..."
-    centered "{color=000000}{size=50}{b}A few hours later...{/b}{/size}{/color}"
+    "{b}{u}A few hours later...{/u}{/b}"
     "It's been a few hours now."
     "I finished one season already."
     "It comes up to lunchtime."
@@ -2892,7 +2890,7 @@ label month1_week1_day5_moraalmostkill:
     "I eat it rather quickly."
     scene bg living room night
     with flash
-    centered "{color=000000}{size=50}{b}A few more hours later...{/b}{/size}{/color}"
+    "{b}{u}A few more hours later...{/u}{/b}"
     "Mora stands up."
     show mora arbiter no_coat normal
     mora "I'm going to make dinner now."
@@ -2928,7 +2926,7 @@ label month1_week1_day5_moraalmostkill:
     "Did she just..."
     "Wow."
     hide mora
-    centered "{color=000000}{size=50}{b}10 minutes later...{/b}{/size}{/color}"
+    "{b}{u}10 minutes later...{/u}{/b}"
     show mora arbiter no_coat normal
     "We finish eating, and she washes the pots."
     "We return to the room."
@@ -2947,11 +2945,11 @@ label month1_week1_day5_moraalmostkill:
     hide mora
     "She returns to the laptop and boots it back up."
     "I turn on the TV and continue watching my show."
-    centered "{color=000000}{size=50}{b}A couple of hours later...{/b}{/size}{/color}"
+    "{b}{u}A couple of hours later...{/u}{/b}"
     "Finally done."
     "That finale was... so sad..."
     "I had to stop myself from bawling..."
-    "I turn on the TV, turning to Mora."
+    "I turn o the TV, turning to Mora."
     show mora arbiter no_coat eyes_closed normal
     my "Mora?"
     mora "..."
@@ -2996,5 +2994,5 @@ label month1_week1_day5_moraalmostkill:
     scene black
     with fade
     centered "End of day."
-    $ month1_week1_day6_avail = True
-    jump month1_week1_day5_end
+    $ chapter1_day6_avail = True
+    jump chapter1_day5_end
