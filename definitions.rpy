@@ -7,6 +7,7 @@ default month1_week1_day2_avail = False
 default month1_week1_day3_avail = False
 default month1_week1_day4_avail = False
 default month1_week1_day5_avail = False
+default month1_week1_day6_avail = False
 default mora_death = False
 default mora_almost_kill = False
 default mora_push = False
