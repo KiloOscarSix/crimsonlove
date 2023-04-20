@@ -2425,3 +2425,156 @@ label month1_week1_day4_moraalmostkill:
     my "Should we go back now?"
     mora "Mhm."
     "We leave."
+    
+    scene bg living room day
+    with fade
+    show mora arbiter normal
+    "We return."
+    my "That was nice."
+    mora "Mhm."
+    my "Thank you for taking me out."
+    show mora arbiter eyes_closed normal
+    mora "..."
+    mora "There is no need to thank me."
+    mora "I'm going to get back to work now."
+    hide mora
+    with moveoutleft
+    "She heads to the table."
+    my "Don't fall asleep again!"
+    "I laugh."
+    centered "{color=000000}{size=50}{b}A couple of hours later...{/b}{/size}{/color}"
+    "I've been sitting on the sofa, watching more TV."
+    "Mora has been super focused on her work."
+    "No sleeping today, haha."
+    "I stand up, heading over to her."
+    show mora arbiter no_coat normal
+    mora "What is it?"
+    "She looks up at me."
+    my "I'm a bit hungry..."
+    mora "I'll make dinner."
+    my "No-"
+    my "You don't have to make anything..."
+    my "I can cook myself, you know."
+    my "Plus, you've already treated me once today."
+    my "Why don't I cook something for you this time around?"
+    mora "Okay."
+    "Wow... I'd expected her to be a bit more humble about it..."
+    my "What would you like?"
+    mora "I don't mind."
+    my "Eh... I'll make you a surprise then!"
+
+    scene bg kitchen day
+    with fade
+    "I head into the kitchen."
+    my "Right... Let's see what we've got here..."
+    "I grab a few different ingredients from a few cupboards."
+    "Time to get to work."
+    centered "{color=000000}{size=50}{b}30 minutes later...{/b}{/size}{/color}"
+    my "Dinner is done!"
+    "I call out to her."
+    show mora arbiter no_coat normal
+    with moveinright
+    "Mora enters the kitchen."
+    mora "That smells nice."
+    my "I\'m glad you think so!"
+    "She sits down at the counter."
+    "I hand her the plate."
+    my "I made spaghetti bolognaise!"
+    mora "Thank you."
+    my "You're welcome!"
+    "She takes a bite."
+    "I eagerly await her reaction."
+    show mora arbiter no_coat eyes_closed normal
+    mora "It's nice."
+    my "Oh!"
+    my "I'm glad you think so!"
+    "I internally squeal."
+    "She liked it!"
+    mora "Yes."
+    "I sit down next to her with my own plate."
+    "I try some."
+    "It's a little spicy, but not too much."
+    "It's soft and rich."
+    "The flavours blend together well."
+    "It's great..."
+    "We both enjoy our meal."
+    "When done, I stand up."
+    my "I'll wash the plates this time, too."
+    show mora arbiter no_coat normal
+    mora "Oh."
+    mora "Okay. Thank you."
+    my "Look at you, thanking me all the time now..."
+    my "How hypocritical..."
+    "I say half jokingly."
+    "She sighs."
+    "I chuckle."
+    mora "I'm going to continue working now."
+    my "Okay!"
+    hide mora
+    with moveoutright
+    "She heads back into the room."
+    "I wash the plates and put everything away, and then head into the room myself."
+
+    scene bg living room night
+    with fade
+    centered "{color=000000}{size=50}{b}A couple of hours later...{/b}{/size}{/color}"
+    "It's been a few hours."
+    "I've watched more TV, and she continued working."
+    "Finally, I switch off the TV, and head to where Mora is sat."
+    show mora arbiter no_coat normal
+    my "It's about my bedtime again..."
+    mora "Okay."
+    mora "Would you like me to leave?"
+    my "No, it's okay, I was just letting you know."
+    mora "Okay."
+    mora "I'll stay quiet when I pack away."
+    my "Thank you..."
+    my "Goodnight!"
+    mora "Goodnight."
+    hide mora
+    "I head back to the sofa and curl up, closing my eyes."
+    "Sleep soon comes."
+    window hide
+    $ month1_week1_day5_avail = True
+    scene black
+    with fade
+    centered "End of day."
+    jump month1_week1_day4_end
+
+label month1_week1_day5:
+    scene black
+    with fade
+    centered "Day 5 - Friday 5th January."
+    pause 1.0
+    if mora_almost_kill == True:
+        jump month1_week1_day5_moraalmostkill
+    ###
+    scene bg living room day
+    with fade
+    "It's another new day."
+    "I stand up, stretching."
+    "I head towards the window."
+    "It's actually rather nice weather today..."
+    "For January, at least..."
+    "The sky is cloudy, but it looks calm."
+    "It's probably still freezing outside though."
+    "Mora enters."
+    show mora arbiter no_coat normal
+    with moveinright
+    mora "Good morning."
+    my "Good morning Mora!"
+    mora "I will make breakfast for you."
+    my "Okay!"
+    hide mora
+    with moveoutleft
+    "She heads into the kitchen."
+    "I follow."
+
+    scene bg kitchen day
+    with fade
+    show mora arbiter no_coat normal
+    "I sit down at the counter, watching her prepare my food."
+    "Eventually it's done."
+    "She hands me the plate and sits down next to me with her food."
+    "We eat in silence."
+    "When done, she washes the plates, and we get ready to leave for work."
