@@ -1,4 +1,4 @@
-﻿## This file contains options that can be changed to customize your game.
+## This file contains options that can be changed to customize your game.
 ##
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
@@ -23,13 +23,19 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.1"
+define config.version = "0.1-beta"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Crimson Love is a cute romance about showing a detached emotionless girl some love <3
+define gui.about = _p("""Crimson Love is a cute romance visual novel. Heavy WIP.
+
+{u}CREDITS{/u}
+
+Noraneko Games = Backgrounds ({a=https://noranekogames.itch.io/}link{/a})
+
+Toritama = Sprites ({a=https://picrew.me/en/image_maker/1771678}link{/a})
 """)
 
 
@@ -47,7 +53,7 @@ define build.name = "crimsonlove"
 ## appropriate mixer.
 
 define config.has_sound = True
-define config.has_music = True
+define config.has_music = False
 define config.has_voice = False
 
 
