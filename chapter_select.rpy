@@ -1,4 +1,4 @@
-﻿label start:
+label start:
     jump chapter_select
 
 label chapter_select:
@@ -19,3 +19,7 @@ label chapter_select:
             jump month1_week1_day2
         "Day 3." if month1_week1_day3_avail:
             jump month1_week1_day3
+        "Day 4." if month1_week1_day4_avail:
+            jump month1_week1_day4
+        "Day 5." if month1_week1_day5_avail:
+            jump month1_week1_day5
