@@ -3,15 +3,15 @@ default zena_affection = 0
 default amari_affection = 0
 default angela_affection = 0
 default mora_affection = 0
-default month1_week1_day2_avail = False
-default month1_week1_day3_avail = False
-default month1_week1_day4_avail = False
-default month1_week1_day5_avail = False
-default month1_week1_day6_avail = False
+default chapter1_day2_avail = False
+default chapter1_day3_avail = False
+default chapter1_day4_avail = False
+default chapter1_day5_avail = False
+default chapter2_avail = False
 default mora_death = False
 default mora_almost_kill = False
 default mora_push = False
-default month1_week1_day3_moraumbrella = False
+default chapter1_day3_moraumbrella = False
 define flash = Fade(.25, 0.0, .75, color="#fff")
 transform t_xpos(x):
   xpos x
