@@ -7,6 +7,7 @@ default chapter1_day2_avail = False
 default chapter1_day3_avail = False
 default chapter1_day4_avail = False
 default chapter1_day5_avail = False
+default chapter2_day2_avail = False
 default chapter2_avail = False
 default mora_death = False
 default mora_almost_kill = False
