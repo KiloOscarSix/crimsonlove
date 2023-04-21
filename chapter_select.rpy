@@ -24,10 +24,12 @@ label chapter_select:
         "Please choose a day."
         "Day 1.":
             jump chapter2_day1
+        "Day 2." if chapter2_day2_avail:
+            jump chapter2_day2
+        "Day 3." if chapter2_day3_avail:
+            jump chapter2_day3
 ###
 # DAY LOG FOR DEVS #
-# CHAPTER 1 - DAYS 1-5 #
-# CHAPTER 2 - DAYS 36 - 42#
 ###
 # YEAR ONE #
 # Day 1 - Monday 1st January (Game start, meet Artificial Interspace)
@@ -80,7 +82,7 @@ label chapter_select:
 ###
 # Day 43 - Monday 12th February
 # Day 44 - Tuesday 13th February
-# Day 45 - Wednesday 14th February (Valentine's Day, ask Mora out)
+# Day 45 - Wednesday 14th February (Valentine's Day)
 # Day 46 - Thursday 15th February
 # Day 47 - Friday 16th February
 # Day 48 - Saturday 17th February

@@ -8,6 +8,7 @@ default chapter1_day3_avail = False
 default chapter1_day4_avail = False
 default chapter1_day5_avail = False
 default chapter2_day2_avail = False
+default chapter2_day3_avail = False
 default chapter2_avail = False
 default mora_death = False
 default mora_almost_kill = False
@@ -182,6 +183,12 @@ image mora arbiter no_coat normal:
     zoom 1.75
 image mora arbiter no_coat eyes_closed normal:
     "images/mora/arbiter/no_coat/eyes_closed_normal.png"
+    zoom 1.75
+image mora arbiter no_coat blush:
+    "images/mora/arbiter/no_coat/blush.png"
+    zoom 1.75
+image mora arbiter no_coat eyes_closed blush:
+    "images/mora/arbiter/no_coat/eyes_closed_blush.png"
     zoom 1.75
 # UNDERWEAR #
 image mora underwear coat normal:
