@@ -20,6 +20,7 @@ transform t_xpos(x):
 default mora_hobbies_unlock = False
 default mora_job_unlock = False
 default mora_workenjoy_failed_unlock = False
+image white = Solid("#ffffff")
 
 ### CHARACTER DEFINITIONS ###
 define my = Character("Myself", image="mc")
@@ -28,6 +29,7 @@ image side mc = "images/mc_side_normal.png"
 define zena = Character("Zena", image="zena")
 image side zena idol = "images/zena/idol/side_normal.png"
 image side zena = "images/zena/newstudent/side_normal.png"
+image side zena arbiter = "images/zena/arbiter/side_normal.png"
 # IDOL #
 image zena idol:
     "images/zena/idol/idol.png"
@@ -69,6 +71,19 @@ image zena student eyes_closed normal:
     zoom 1.75
 image zena student eyes_closed talk:
     "images/zena/student/eyes_closed_talk.png"
+    zoom 1.75
+# ARBITER #
+image zena arbiter normal:
+    "images/zena/arbiter/normal.png"
+    zoom 1.75
+image zena arbiter talk:
+    "images/zena/arbiter/talk.png"
+    zoom 1.75
+image zena arbiter eyes_closed normal:
+    "images/zena/arbiter/eyes_closed_normal.png"
+    zoom 1.75
+image zena arbiter eyes_closed talk:
+    "images/zena/arbiter/eyes_closed_normal.png"
     zoom 1.75
 
 ### ALESSA ###
@@ -227,6 +242,29 @@ image mora casual coat ponytail normal:
     zoom 1.75
 image mora casual coat ponytail eyes_closed normal:
     "images/mora/casual/coat/ponytail/eyes_closed_normal.png"
+    zoom 1.75
+# DATE #
+image mora date normal:
+    "images/mora/date/normal.png"
+    zoom 1.75
+image mora date eyes_closed normal:
+    "images/mora/date/eyes_closed_normal.png"
+    zoom 1.75
+image mora date smile:
+    "images/mora/date/smile.png"
+    zoom 1.75
+image mora date eyes_closed smile:
+    "images/mora/date/eyes_closed_smile.png"
+
+### HAREKA ###
+define hareka = Character("Hareka", image="hareka")
+image side hareka = "images/hareka/arbiter/side_normal.png"
+# ARBITER #
+image hareka arbiter normal:
+    "images/hareka/arbiter/normal.png"
+    zoom 1.75
+image hareka arbiter eyes_closed normal:
+    "images/hareka/arbiter/eyes_closed_normal.png"
     zoom 1.75
 
 ### BACKGROUND DEFINITIONS ###
