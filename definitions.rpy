@@ -20,6 +20,7 @@ default chapter3_day9_avail = False
 default chapter3_day10_avail = False
 default chapter3_day11_avail = False
 default chapter3_day12_avail = False
+default chapter3_day13_avail = False
 default chapter2_avail = False
 default chapter3_avail = False
 default chapter4_avail = False
@@ -430,6 +431,12 @@ image interface arbiter eyes_closed normal:
     zoom 1.75
 image interface arbiter shocked:
     "images/interface/arbiter/shocked.png"
+    zoom 1.75
+image interface arbiter smile:
+    "images/interface/arbiter/smile.png"
+    zoom 1.75
+image interface arbiter eyes_closed smile:
+    "images/interface/arbiter/eyes_closed_smile.png"
     zoom 1.75
 # SCHOOL #
 image interface school normal:

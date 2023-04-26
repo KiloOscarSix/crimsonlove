@@ -32,7 +32,7 @@ label chapter_select:
             jump chapter2_day2
         "Day 3." if chapter2_day3_avail:
             jump chapter2_day3
-    menu chapter3_select (screen="gridchoice", cols=3, rows=4):
+    menu chapter3_select (screen="gridchoice", cols=3, rows=5):
         "Please choose a day."
         "Day 1.":
             jump chapter3_day1
@@ -58,6 +58,8 @@ label chapter_select:
             jump chapter3_day11
         "Day 12." if chapter3_day12_avail:
             jump chapter3_day12
+        "Day 13." if chapter3_day13_avail:
+            jump chapter3_day13
 ###
 # DAY LOG FOR DEVS #
 ###
