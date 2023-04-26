@@ -1503,3 +1503,22 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+###
+screen gridchoice(items, cols, rows):
+    style_prefix "choice"
+
+    # Pad out the list of items to match the space.
+    $ padded_items = items + [ None ] * ( rows * cols - len(items))
+
+    grid cols rows:
+        xalign 0.5
+        ypos 500
+        yanchor 0.5
+
+        spacing gui.choice_spacing
+
+        for i in padded_items:
+            if i is not None:
+                textbutton i.caption action i.action xsize 300
+            else:
+                null

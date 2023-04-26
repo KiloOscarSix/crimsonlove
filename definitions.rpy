@@ -9,7 +9,20 @@ default chapter1_day4_avail = False
 default chapter1_day5_avail = False
 default chapter2_day2_avail = False
 default chapter2_day3_avail = False
+default chapter3_day2_avail = False
+default chapter3_day3_avail = False
+default chapter3_day4_avail = False
+default chapter3_day5_avail = False
+default chapter3_day6_avail = False
+default chapter3_day7_avail = False
+default chapter3_day8_avail = False
+default chapter3_day9_avail = False
+default chapter3_day10_avail = False
+default chapter3_day11_avail = False
+default chapter3_day12_avail = False
 default chapter2_avail = False
+default chapter3_avail = False
+default chapter4_avail = False
 default mora_death = False
 default mora_almost_kill = False
 default mora_push = False
@@ -21,12 +34,14 @@ default mora_hobbies_unlock = False
 default mora_job_unlock = False
 default mora_workenjoy_failed_unlock = False
 image white = Solid("#ffffff")
+image blue = Solid("#0000FF")
+define config.allow_underfull_grids = True
 
 ### CHARACTER DEFINITIONS ###
-define my = Character("Myself", image="mc")
+define my = Character("Myself", image="mc", voice_tag="mc")
 image side mc = "images/mc_side_normal.png"
 ### ZENA ###
-define zena = Character("Zena", image="zena")
+define zena = Character("Zena", image="zena", voice_tag="zena")
 image side zena idol = "images/zena/idol/side_normal.png"
 image side zena = "images/zena/newstudent/side_normal.png"
 image side zena arbiter = "images/zena/arbiter/side_normal.png"
@@ -100,7 +115,7 @@ image alessa student sad:
     zoom 1.75
 
 ### ANGELA ###
-define angela = Character("Angela", image="angela")
+define angela = Character("Angela", image="angela", voice_tag="angela")
 image side angela idol = "images/angela/idol/side_normal.png"
 image side angela = "images/angela/casual/side_normal.png"
 # IDOL #
@@ -131,7 +146,7 @@ image angela casual eyes_closed talk:
     zoom 1.75
 
 ### AMARI ###
-define amari = Character("Amari", image="amari")
+define amari = Character("Amari", image="amari", voice_tag="amari")
 image side amari idol = "images/amari/idol/side_normal.png"
 image side amari = "images/amari/casual/side_normal.png"
 # IDOL #
@@ -162,7 +177,7 @@ image amari casual eyes_closed talk:
     zoom 1.75
 
 ### ELI ###
-define eli = Character("Eli", image="eli")
+define eli = Character("Eli", image="eli", voice_tag="eli")
 image side eli = "images/employees/eli/side_normal.png"
 # WORK #
 image eli work normal:
@@ -184,7 +199,7 @@ image cara work eyes_closed normal:
     zoom 1.75
 
 ### MORA ###
-define mora = Character("Mora", image="mora")
+define mora = Character("Mora", image="mora", voice_tag="mora")
 image side mora = "images/mora/arbiter/side_normal.png"
 # ARBITER #
 image mora arbiter normal:
@@ -257,7 +272,7 @@ image mora date eyes_closed smile:
     "images/mora/date/eyes_closed_smile.png"
 
 ### HAREKA ###
-define hareka = Character("Hareka", image="hareka")
+define hareka = Character("Hareka", image="hareka", voice_tag="hareka")
 image side hareka = "images/hareka/arbiter/side_normal.png"
 # ARBITER #
 image hareka arbiter normal:
@@ -265,6 +280,194 @@ image hareka arbiter normal:
     zoom 1.75
 image hareka arbiter eyes_closed normal:
     "images/hareka/arbiter/eyes_closed_normal.png"
+    zoom 1.75
+image hareka arbiter smile:
+    "images/hareka/arbiter/smile.png"
+    zoom 1.75
+image hareka arbiter eyes_closed smile:
+    "images/hareka/arbiter/eyes_closed_smile.png"
+    zoom 1.75
+image hareka arbiter corrupted:
+    "images/hareka/arbiter/corrupted.png"
+    zoom 1.75
+image hareka arbiter hair_down normal:
+    "images/hareka/arbiter/hair_down/normal.png"
+    zoom 1.75
+image hareka arbiter hair_down eyes_closed normal:
+    "images/hareka/arbiter/hair_down/eyes_closed_normal.png"
+    zoom 1.75
+image hareka arbiter hair_down smile:
+    "images/hareka/arbiter/hair_down/smile.png"
+    zoom 1.75
+image hareka arbiter hair_down eyes_closed smile:
+    "images/hareka/arbiter/hair_down/eyes_closed_smile.png"
+    zoom 1.75
+image hareka arbiter no_coat normal:
+    "images/hareka/arbiter/no_coat/normal.png"
+    zoom 1.75
+image hareka arbiter no_coat eyes_closed normal:
+    "images/hareka/arbiter/no_coat/eyes_closed_normal.png"
+    zoom 1.75
+image hareka arbiter no_coat smile:
+    "images/hareka/arbiter/no_coat/smile.png"
+    zoom 1.75
+image hareka arbiter no_coat eyes_closed smile:
+    "images/hareka/arbiter/no_coat/eyes_closed_smile.png"
+    zoom 1.75
+image hareka arbiter no_coat hair_down normal:
+    "images/hareka/arbiter/no_coat/hair_down/normal.png"
+    zoom 1.75
+image hareka arbiter no_coat hair_down eyes_closed normal:
+    "images/hareka/arbiter/no_coat/hair_down/eyes_closed_normal.png"
+    zoom 1.75
+image hareka arbiter no_coat hair_down smile:
+    "images/hareka/arbiter/no_coat/hair_down/smile.png"
+    zoom 1.75
+image hareka arbiter no_coat hair_down eyes_closed smile:
+    "images/hareka/arbiter/no_coat/hair_down/eyes_closed_smile.png"
+    zoom 1.75
+image hareka arbiter alt normal:
+    "images/hareka/arbiter/alt/normal.png"
+    zoom 1.75
+image hareka arbiter alt eyes_closed normal:
+    "images/hareka/arbiter/alt/eyes_closed_normal.png"
+    zoom 1.75
+image hareka arbiter alt hair_down normal:
+    "images/hareka/arbiter/alt/hair_down/normal.png"
+    zoom 1.75
+image hareka arbiter alt hair_down eyes_closed normal:
+    "images/hareka/arbiter/alt/hair_down/eyes_closed_normal.png"
+    zoom 1.75
+# CASUAL #
+image hareka casual normal:
+    "images/hareka/casual/normal.png"
+    zoom 1.75
+image hareka casual eyes_closed normal:
+    "images/hareka/casual/eyes_closed_normal.png"
+    zoom 1.75
+image hareka casual hair_up normal:
+    "images/hareka/casual/hair_up/normal.png"
+    zoom 1.75
+image hareka casual hair_up eyes_closed normal:
+    "images/hareka/casual/hair_up/eyes_closed_normal.png"
+    zoom 1.75
+# CASUAL 2 #
+image hareka casual_2 normal:
+    "images/hareka/casual_2/normal.png"
+    zoom 1.75
+image hareka casual_2 eyes_closed normal:
+    "images/hareka/casual_2/eyes_closed_normal.png"
+    zoom 1.75
+image hareka casual_2 hair_down normal:
+    "images/hareka/casual_2/hair_down/normal.png"
+    zoom 1.75
+image hareka casual_2 hair_down eyes_closed normal:
+    "images/hareka/casual_2/hair_down/eyes_closed_normal.png"
+    zoom 1.75
+
+### AMITA ###
+define amita = Character("Amita", image="amita", voice_tag="amita")
+image side amita = "images/amita/star/side_normal.png"
+image side amita arbiter = "images/amita/arbiter/side_normal.png"
+# STAR #
+image amita star normal:
+    "images/amita/star/normal.png"
+    zoom 1.75
+image amita star eyes_closed normal:
+    "images/amita/star/eyes_closed_normal.png"
+    zoom 1.75
+image amita star sad:
+    "images/amita/star/sad.png"
+    zoom 1.75
+image amita star eyes_closed sad:
+    "images/amita/star/eyes_closed_sad.png"
+    zoom 1.75
+# ARBITER #
+image amita arbiter normal:
+    "images/amita/arbiter/normal.png"
+    zoom 1.75
+image amita arbiter eyes_closed normal:
+    "images/amita/arbiter/eyes_closed_normal.png"
+    zoom 1.75
+image amita arbiter sad:
+    "images/amita/arbiter/sad.png"
+    zoom 1.75
+image amita arbiter eyes_closed sad:
+    "images/amita/arbiter/eyes_closed_sad.png"
+    zoom 1.75
+
+### LILY ###
+define lily = Character("Lily", image="lily", voice_tag="lily")
+image side lily = "images/lily/scientist/side_normal.png"
+# SCIENTIST #
+image lily scientist normal:
+    "images/lily/scientist/normal.png"
+    zoom 1.75
+image lily scientist eyes_closed normal:
+    "images/lily/scientist/eyes_closed_normal.png"
+    zoom 1.75
+
+### KANA ###
+define kana = Character("Kana", image="kana", voice_tag="kana")
+image side kana = "images/kana/arbiter/side_normal.png"
+# ARBITER #
+image kana arbiter normal:
+    "images/kana/arbiter/normal.png"
+    zoom 1.75
+image kana arbiter eyes_closed normal:
+    "images/kana/arbiter/eyes_closed_normal.png"
+    zoom 1.75
+
+### INTERFACE ###
+define interface = Character("The Interface", image="interface", voice_tag="interface")
+image side interface = "images/interface/arbiter/side_normal.png"
+# ARBITER #
+image interface arbiter normal:
+    "images/interface/arbiter/normal.png"
+    zoom 1.75
+image interface arbiter eyes_closed normal:
+    "images/interface/arbiter/eyes_closed_normal.png"
+    zoom 1.75
+image interface arbiter shocked:
+    "images/interface/arbiter/shocked.png"
+    zoom 1.75
+# SCHOOL #
+image interface school normal:
+    "images/interface/school/normal.png"
+    zoom 1.75
+image interface school eyes_closed normal:
+    "images/interface/school/eyes_closed_normal.png"
+    zoom 1.75
+# CASUAL #
+image interface casual normal:
+    "images/interface/casual/normal.png"
+    zoom 1.75
+image interface casual eyes_closed normal:
+    "images/interface/casual/eyes_closed_normal.png"
+    zoom 1.75
+# CASUAL 2 #
+image interface casual_2 normal:
+    "images/interface/casual_2/normal.png"
+    zoom 1.75
+image interface casual_2 eyes_closed normal:
+    "images/interface/casual_2/eyes_closed_normal.png"
+    zoom 1.75
+
+# MILLY #
+define milly = Character("Milly", image="milly", voice_tag="milly")
+image side milly = "images/milly/school/side_normal.png"
+# SCHOOL #
+image milly school normal:
+    "images/milly/school/normal.png"
+    zoom 1.75
+image milly school eyes_closed normal:
+    "images/milly/school/eyes_closed_normal.png"
+    zoom 1.75
+image milly school sad:
+    "images/milly/school/sad.png"
+    zoom 1.75
+image milly school eyes_closed sad:
+    "images/milly/school/eyes_closed_sad.png"
     zoom 1.75
 
 ### BACKGROUND DEFINITIONS ###
@@ -321,3 +524,20 @@ image bg train night rain = "images/backgrounds/Train_Night_Rain.png"
 image bg train tunnel = "images/backgrounds/Train_Tunnel.png"
 image bg stage = "images/backgrounds/stage.png"
 image bg backstage = "images/backgrounds/backstage.png"
+image vignette = "images/backgrounds/Vignette.png"
+image bg office day:
+    "images/backgrounds/office_day.png"
+    zoom 2.4
+image water:
+    "images/backgrounds/water.png"
+    zoom 1.6
+    ypos 1.2
+image bg park:
+    "images/backgrounds/park.png"
+    zoom 2.4
+image bg jail:
+    "images/backgrounds/jail.png"
+    zoom 2.4
+image bg library:
+    "images/backgrounds/library_rain.png"
+    zoom 2.4

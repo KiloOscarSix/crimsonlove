@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.2-beta"
+define config.version = "0.3-beta"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -36,6 +36,8 @@ define gui.about = _p("""Crimson Love is a cute romance visual novel. Heavy WIP.
 Noraneko Games = Backgrounds ({a=https://noranekogames.itch.io/}link{/a})
 
 Toritama = Sprites ({a=https://picrew.me/en/image_maker/1771678}link{/a})
+
+Fluffness = Some Backgrounds ({a=https://cloudnovel.net/fluffness}link{/a})
 """)
 
 
@@ -54,7 +56,7 @@ define build.name = "crimsonlove"
 
 define config.has_sound = True
 define config.has_music = False
-define config.has_voice = False
+define config.has_voice = True
 
 
 ## To allow the user to play a test sound on the sound or voice channel,

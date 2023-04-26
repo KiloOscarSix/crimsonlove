@@ -25,19 +25,26 @@ label chapter1_day1:
     "{b}{u}Half an hour later...{/u}{/b}"
     "The train is gathering more people as the journey goes on."
     "It's getting pretty packed now. I'm glad I got a seat earlier."
+    voice "audio/voice_acting/chapter1_2/001.mp3"
     "???" "Excuse me?"
+    voice "audio/voice_acting/chapter1_2/002.mp3"
     my "Huh-"
     "I look up, to see{nw}{done} a girl standing in front of me."
     show zena newstudent normal
     "I look up, to see{fast} a girl standing in front of me."
+    voice "audio/voice_acting/chapter1_2/003.mp3"
     my "Can I help you?"
+    voice "audio/voice_acting/chapter1_2/004.mp3"
     "???" "Can I sit next to you? There's no other free seats."
+    voice "audio/voice_acting/chapter1_2/005.mp3"
     my "Ah..."
     "I have no reason to not let her."
+    voice "audio/voice_acting/chapter1_2/006.mp3"
     my "Yeah, sure!"
     show zena newstudent eyes_closed normal
     "She lets out a sigh of relief."
     show zena newstudent normal
+    voice "audio/voice_acting/chapter1_2/007.mp3"
     "???" "Thank you."
     "She takes a seat next to me."
     "The journey continues in silence."
@@ -55,8 +62,11 @@ label chapter1_day1:
     "I stand up, gathering my things."
     "The girl begins to wake up."
     show zena newstudent normal
+    voice "audio/voice_acting/chapter1_2/008.mp3"
     "???" "What stop is this..."
+    voice "audio/voice_acting/chapter1_2/009.mp3"
     my "Chisick."
+    voice "audio/voice_acting/chapter1_2/010.mp3"
     "???" "Ah..."
     "She stands up too."
     "Huh, she's getting off here too?"
@@ -69,11 +79,14 @@ label chapter1_day1:
     "The rain is heavy."
     "I grab my umbrella."
     "She stands there for a moment, contemplating."
+    voice "audio/voice_acting/chapter1_2/011.mp3"
     my "Don't you have a coat or umbrella?"
     "I ask, curious and a bit concerned."
     "She shrugs."
     show zena newstudent eyes_closed normal
+    voice "audio/voice_acting/chapter1_2/012.mp3"
     "???" "I'll be fine."
+    voice "audio/voice_acting/chapter1_2/013.mp3"
     my "Okay..."
     hide zena
     with moveoutright
@@ -83,15 +96,19 @@ label chapter1_day1:
     scene bg stage
     with fade
     "Phew... I made it..."
+    voice "audio/voice_acting/chapter1_2/014.mp3"
     "Employee" "Hey, you're late!"
+    voice "audio/voice_acting/chapter1_2/015.mp3"
     my "Sorry! The weather is terrible!"
+    voice "audio/voice_acting/chapter1_2/016.mp3"
     "Employee" "It's fine, don't worry!"
     "I set down my umbrella and take off my coat."
     "Time to get to work."
     "The first day of the New Year in my job..."
     "As a stage manager..."
-    "Some idol is performing here today, for a New Years concert."
+    "Some idol group is performing here today, for a New Years concert."
     "I clap my hands, getting everyone's attention."
+    voice "audio/voice_acting/chapter1_2/017.mp3"
     my "Okay, everyone, let's begin setting the stage!"
     scene bg stage
     with flash
@@ -103,6 +120,7 @@ label chapter1_day1:
     scene bg backstage
     with wipeleft
     "I enter the backstage area."
+    voice "audio/voice_acting/chapter1_2/018.mp3"
     my "Hello~?"
     "I call out."
     "Three girls turn their heads."
@@ -110,38 +128,56 @@ label chapter1_day1:
     show angela idol normal at center
     show zena idol normal at right
     "I immediately recognise one of them."
+    voice "audio/voice_acting/chapter1_2/019.mp3"
     "???" "!!!"
     show zena idol eyes_closed normal
     "She looks away."
     show angela idol talk
+    voice "audio/voice_acting/chapter1_2/020.mp3"
     "???" "How can we help you?"
     "One of them asks."
     "I smile."
+    voice "audio/voice_acting/chapter1_2/021.mp3"
     my "I'm the stage manager here, thought I'd come meet you!"
+    voice "audio/voice_acting/chapter1_2/022.mp3"
     "???" "How sweet!"
     "She steps forward."
+    voice "audio/voice_acting/chapter1_2/023.mp3"
     angela "My name is Angela, nice to meet you! I'm the leader of our idol group!"
+    voice "audio/voice_acting/chapter1_2/024.mp3"
     angela "The one to the left of me is Amari!"
     show amari idol talk
+    voice "audio/voice_acting/chapter1_2/025.mp3"
     amari "Nice to meet you."
+    voice "audio/voice_acting/chapter1_2/026.mp3"
     angela "And-"
     show angela idol eyes_closed normal
+    voice "audio/voice_acting/chapter1_2/027.mp3"
     angela "Zena doesn't talk much."
+    voice "audio/voice_acting/chapter1_2/028.mp3"
     zena "..."
+    voice "audio/voice_acting/chapter1_2/029.mp3"
     my "Ah..."
+    voice "audio/voice_acting/chapter1_2/030.mp3"
     my "That's okay."
+    voice "audio/voice_acting/chapter1_2/031.mp3"
     my "Nice to meet you all!"
+    voice "audio/voice_acting/chapter1_2/032.mp3"
     my "Good luck with your show today! I'll be cheering you on!"
     show angela idol talk
+    voice "audio/voice_acting/chapter1_2/033.mp3"
     angela "Thank you~!"
     show amari idol eyes_closed normal
+    voice "audio/voice_acting/chapter1_2/034.mp3"
     amari "We'll do our best!"
     show zena idol normal
+    voice "audio/voice_acting/chapter1_2/035.mp3"
     zena "I'll perform the best I can..."
     "I smile."
+    voice "audio/voice_acting/chapter1_2/036.mp3"
     my "I'm sure you'll all do great!"
 
-    show black
+    scene black
     with fade
     "I leave even happier than before."
     "Those girls seem really positive."
@@ -744,6 +780,7 @@ label chapter1_day2_menu3_answer1:
     with fade
     centered "END."
     pause 1.0
+    return
 label chapter1_day2_menu3_answer2:
     "I let go of her head."
     show mora arbiter no_coat normal
@@ -945,7 +982,7 @@ label chapter1_day3:
     mora "Good."
     "We eat in silence."
     "When we finish, she grabs the plates and quickly washes them."
-    "I watch, surprised at how effecient she works."
+    "I watch, surprised at how effiecient she works."
     "So swift and smooth."
     "No stumbles or mistakes."
     "It's almost robotic..."
@@ -1242,7 +1279,7 @@ label chapter1_day3_morapush:
     mora "Good."
     "We eat in silence."
     "When we finish, she grabs the plates and quickly washes them."
-    "I watch, surprised at how effecient she works."
+    "I watch, surprised at how effiecient she works."
     "So swift and smooth."
     "No stumbles or mistakes."
     "It's almost robotic..."
@@ -1610,7 +1647,7 @@ label chapter1_day3_moraalmostkill:
     mora "Good."
     "We eat in silence."
     "When we finish, she grabs the plates and quickly washes them."
-    "I watch, surprised at how effecient she works."
+    "I watch, surprised at how effiecient she works."
     "So swift and smooth."
     "No stumbles or mistakes."
     "It's almost robotic..."
@@ -2289,7 +2326,7 @@ label chapter1_day4_moraalmostkill:
     my "Yep!"
     mora "Let's go, then."
 
-    scene black # I need to find a park background
+    scene bg park
     with fade
     show mora arbiter normal
     "We arrive at a nearby park."
@@ -2329,7 +2366,7 @@ label chapter1_day4_moraalmostkill:
     my "Yeah, it's a nice place..."
     my "The staff are really friendly, and the food is great..."
     my "In my opinion at least, haha."
-    "we grab a menu."
+    "We grab a menu."
     mora "There's a lot of different foods here..."
     my "Yeah, that's one reason they're so popular!"
     my "We're lucky not many people are here, usually it's so packed..."
@@ -2949,7 +2986,7 @@ label chapter1_day5_moraalmostkill:
     "Finally done."
     "That finale was... so sad..."
     "I had to stop myself from bawling..."
-    "I turn o the TV, turning to Mora."
+    "I turn off the TV, turning to Mora."
     show mora arbiter no_coat eyes_closed normal
     my "Mora?"
     mora "..."
@@ -3676,6 +3713,7 @@ label chapter2_day3:
     "{i}It's all my fault... I should've performed the maintenance... I could've stopped the incident...{/i}"
     "{i}At the end of everything...{/i}"
     "{i}Mora, do you have any regrets?{/i}"
+    $ chapter3_avail = True
     menu chapter2_day3_end:
         "Day complete!"
         "{b}Carry on option is not available due to Chapter Completion.{/b}"
