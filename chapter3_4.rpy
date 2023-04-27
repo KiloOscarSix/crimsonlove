@@ -3117,4 +3117,27 @@ label chapter3_day12:
         "Carry on.":
             jump chapter3_day13
 label chapter3_day13:
-    "Placeholder."
+    scene black
+    with fade
+    centered "Day 13 - Saturday 13th January."
+    pause 1.0
+
+    scene bg bedroom day
+    show hareka arbiter no_coat hair_down smile at left
+    show interface arbiter normal at right
+    with fade
+    "I wake up."
+    "The girls are waiting for me again."
+    my "Good morning..."
+    hareka "Good morning."
+    interface "Good morning."
+    "I do my morning stretch."
+    hareka "Ready for breakfast?"
+    my "Yep!"
+
+    scene bg kitchen day
+    show hareka arbiter no_coat hair_down smile at left
+    show interface arbiter normal at right
+    with fade
+    "We enter the kitchen."
+    "Me and The Interface sit down while Hareka makes my toast."
