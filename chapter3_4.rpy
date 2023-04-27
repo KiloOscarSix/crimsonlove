@@ -3141,3 +3141,29 @@ label chapter3_day13:
     with fade
     "We enter the kitchen."
     "Me and The Interface sit down while Hareka makes my toast."
+    "I eat."
+    interface "Do you make the same breakfast every day?"
+    hareka "Yes. She hasn't complained yet, so it's fine."
+    "I look up at them."
+    my "Hey, I don't mind toast. It's yummy!"
+    interface "Doesn't it get boring?"
+    my "Not really. It's one of my favourite foods, so..."
+    show interface arbiter eyes_closed normal
+    interface "I see."
+    my "I get that it's hard for you to understand, being unable to taste anything... Just trust me."
+    hareka "I'm glad you like it."
+    my "If I did have a problem with it, I'd tell you right away, Hareka."
+    "I smile at her reassuringly."
+    "She smiles back."
+    show interface arbiter normal
+    interface "I suppose you're entitled to your opinion."
+    my "Of course."
+
+    scene bg bedroom day
+    show hareka arbiter no_coat hair_down smile at left
+    show interface arbiter normal at right
+    with fade
+    "We return to the bedroom."
+    my "Can I do some reading first, then we can play chess after lunch?"
+    hareka "Okay!"
+    interface "What do you read?"

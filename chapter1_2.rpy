@@ -193,14 +193,21 @@ label chapter1_day1:
     show amari idol talk at left
     show angela idol talk at center
     show zena idol talk at right
+    voice "audio/voice_acting/chapter1_2/037.mp3"
     angela "Helloooo~!"
+    voice "audio/voice_acting/chapter1_2/038.mp3"
     angela "I'm Angela!"
+    voice "audio/voice_acting/chapter1_2/039.mp3"
     amari "I'm Amari!"
+    voice "audio/voice_acting/chapter1_2/040.mp3"
     zena "I'm Zena!"
+    voice "audio/voice_acting/chapter1_2/041.mp3"
     angela "We are The Artificial Interspace!"
     "The crowd cheers."
+    voice "audio/voice_acting/chapter1_2/042.mp3"
     angela "I hope you enjoy our performance for you today!"
     show amari idol eyes_closed talk
+    voice "audio/voice_acting/chapter1_2/043.mp3"
     amari "Happy New Years, everyone!!"
     "With a click of a button, the music begins."
     show amari idol eyes_closed normal
@@ -220,13 +227,18 @@ label chapter1_day1:
     show angela idol normal at center
     show zena idol normal at right
     "Before I know it, the show is coming to a close."
+    voice "audio/voice_acting/chapter1_2/044.mp3"
     amari "Did you enjoy that, everyone?"
     "The crowd roars."
     show amari idol eyes_closed normal
+    voice "audio/voice_acting/chapter1_2/045.mp3"
     amari "I'm glad~!"
     show angela idol talk
+    voice "audio/voice_acting/chapter1_2/046.mp3"
     angela "Thank you so much for coming, everyone! It's been so much fun!"
+    voice "audio/voice_acting/chapter1_2/047.mp3"
     angela "Hopefully we'll meet again soon!"
+    voice "audio/voice_acting/chapter1_2/048.mp3"
     angela "Goodbye~!"
     hide amari
     hide angela
