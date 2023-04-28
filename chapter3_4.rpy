@@ -3515,3 +3515,73 @@ label chapter3_day14:
     "Her legs are wobbly."
     hareka "Oh wow..."
     my "That will happen when you stay in one place for {i}hours...{/i}"
+    "She lifts her leg up to get out of the bath, but slips."
+    "I attempt to grab her but get dragged down myself."
+    show hareka arbiter no_coat hair_down eyes_closed normal
+    with hpunch
+    "We fall."
+    "The cold water sends a shock through me."
+    "I sit up, coughing."
+    show hareka arbiter no_coat hair_down normal
+    hareka "Are you okay?"
+    my "Yeah..."
+    hareka "I didn't mean to pull you down."
+    my "No, it's my fault for trying to grab you like that..."
+    "We sit in the bath, awkwardly, for a moment."
+    "I stand up first, then help her out of the bath, making sure to be careful this time."
+    "I grab towels for us both."
+    show hareka arbiter no_coat hair_down smile
+    hareka "Thanks..."
+    "She wraps herself in the towel."
+    "I wring out my hair and skirt."
+    my "Ugh..."
+    show hareka arbiter no_coat hair_down eyes_closed smile
+    hareka "We both look a right mess, don't we?"
+    my "Yeah."
+    "We both laugh a bit."
+    "It is a rather funny situation. At least we didn't get hurt."
+    my "Oh, have you seen The Interface by the way?"
+    show hareka arbiter no_coat hair_down smile
+    hareka "No, I haven't."
+    my "Me neither..."
+    hareka "Don't worry. She's probably sorting out how to deal with me, haha."
+    my "Will you be okay, by the way? Didn't she say you'll lose your job?"
+    my "Does that mean we can't be together anymore...?"
+    hareka "Of course not~!"
+    hareka "It'll all work out, don't worry."
+    hareka "It's bound to."
+    my "Ah..."
+    "I'm not sure... but I guess I'll trust her."
+    "She smiles at me."
+    hareka "Should we get breakfast?"
+    my "Oh, yeah... I'm starving..."
+    hareka "Okay, let's go~!"
+    my "Go-?"
+    my "Where to?"
+    "Before I can receive a reply, she's already dragging me out."
+    my "Wait-!!!"
+    
+    scene bg city morning
+    show hareka arbiter no_coat hair_down eyes_closed smile
+    with fade
+    "Hareka steps out of the apartment building. She closes her eyes and takes a deep inhale."
+    "It's now that I remember that she hasn't been allowed outside before."
+    "She stands here for a moment, taking in all the new senses."
+    hareka "This is..."
+    "I grab her hand."
+    show hareka arbiter no_coat hair_down smile
+    hareka "I'm so happy."
+    my "I'm happy that you're happy."
+    hareka "Do you know of any food places near here?"
+    my "Yeah, I know of one."
+    my "Should we head there?"
+    hareka "Yeah!"
+    
+    scene bg restaurant a
+    show hareka arbiter no_coat hair_down smile
+    with fade
+    "We head to an old cafe I used to frequent back in my school days."
+    "We take a seat, and look through the menu."
+    hareka "There's so many yummy sounding things on here... I don't know where to begin!"
+    my "We could try multiple things, in smaller portions."
+    hareka "Good idea!"
