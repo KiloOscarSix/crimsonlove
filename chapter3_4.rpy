@@ -3477,4 +3477,41 @@ label chapter3_day13:
         "Carry on.":
             jump chapter3_day14
 label chapter3_day14:
-    "Placeholder."
+    scene black
+    with fade
+    centered "Day 14 - Sunday 14th January."
+    pause 1.0
+    
+    scene bg bedroom day
+    with fade
+    "I slowly awaken."
+    "The tiredness hits me straight away. I always feel rubbish when my sleep has been interrupted..."
+    "I stand up, stretching out, trying to wake up my sleepy body."
+    "I'm really hungry..."
+    "Actually, where is Hareka?"
+    "It really took me this long to notice she's gone... Now that I think about it, I haven't seen The Interface at all since last night either..."
+    "So much for having to keep 24/7 monitoring on me, huh??"
+    
+    scene bg bathroom foggy
+    show hareka arbiter no_coat hair_down smile
+    with fade
+    hareka "Hey, Alex!"
+    my "Huh-"
+    "She's still in the bathroom???"
+    "I enter the bathroom."
+    "She rests her chin on the edge of the bathtub."
+    hareka "Good morning~!"
+    my "Did you stay in the bath all night?!"
+    "I head over to the tub."
+    hareka "Yeah, so?"
+    "I put my hand in the water, immediately recoiling."
+    my "That's freezing..."
+    hareka "I don't feel it."
+    my "That's even more concerning!"
+    my "Is it numbness?"
+    hareka "I suppose..."
+    my "Come on, let me help."
+    "I grab her hands and pull her up."
+    "Her legs are wobbly."
+    hareka "Oh wow..."
+    my "That will happen when you stay in one place for {i}hours...{/i}"
