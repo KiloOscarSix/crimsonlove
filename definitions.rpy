@@ -21,6 +21,7 @@ default chapter3_day10_avail = False
 default chapter3_day11_avail = False
 default chapter3_day12_avail = False
 default chapter3_day13_avail = False
+default chapter3_day14_avail = False
 default chapter2_avail = False
 default chapter3_avail = False
 default chapter4_avail = False
@@ -271,6 +272,7 @@ image mora date smile:
     zoom 1.75
 image mora date eyes_closed smile:
     "images/mora/date/eyes_closed_smile.png"
+    zoom 1.75
 
 ### HAREKA ###
 define hareka = Character("Hareka", image="hareka", voice_tag="hareka")
@@ -327,6 +329,9 @@ image hareka arbiter no_coat hair_down smile:
 image hareka arbiter no_coat hair_down eyes_closed smile:
     "images/hareka/arbiter/no_coat/hair_down/eyes_closed_smile.png"
     zoom 1.75
+image hareka arbiter no_coat hair_down corrupted:
+    "images/hareka/arbiter/no_coat/hair_down/corrupted.png"
+    zoom 1.75
 image hareka arbiter alt normal:
     "images/hareka/arbiter/alt/normal.png"
     zoom 1.75
@@ -359,11 +364,23 @@ image hareka casual_2 normal:
 image hareka casual_2 eyes_closed normal:
     "images/hareka/casual_2/eyes_closed_normal.png"
     zoom 1.75
+image hareka casual_2 smile:
+    "images/hareka/casual_2/smile.png"
+    zoom 1.75
+image hareka casual_2 eyes_closed smile:
+    "images/hareka/casual_2/eyes_closed_smile.png"
+    zoom 1.75
 image hareka casual_2 hair_down normal:
     "images/hareka/casual_2/hair_down/normal.png"
     zoom 1.75
 image hareka casual_2 hair_down eyes_closed normal:
     "images/hareka/casual_2/hair_down/eyes_closed_normal.png"
+    zoom 1.75
+image hareka casual_2 hair_down smile:
+    "images/hareka/casual_2/hair_down/smile.png"
+    zoom 1.75
+image hareka casual_2 hair_down eyes_closed smile:
+    "images/hareka/casual_2/hair_down/eyes_closed_smile.png"
     zoom 1.75
 
 ### AMITA ###

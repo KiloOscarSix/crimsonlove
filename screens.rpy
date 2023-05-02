@@ -1519,6 +1519,6 @@ screen gridchoice(items, cols, rows):
 
         for i in padded_items:
             if i is not None:
-                textbutton i.caption action i.action xsize 300
+                textbutton i.caption action i.action xsize 400
             else:
                 null

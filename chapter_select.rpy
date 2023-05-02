@@ -4,14 +4,16 @@ label start:
     jump chapter_select
 
 label chapter_select:
-    menu month_select (screen="gridchoice", cols=1, rows=3):
+    menu month_select:
         "Please choose a chapter."
-        "Chapter 1.":
+        "Chapter 1 - Prologue (Part 1, Mora)":
             jump chapter1_select
-        "Chapter 2." if chapter2_avail:
+        "Chapter 2 - Prologue (Part 2, Mora)" if chapter2_avail:
             jump chapter2_select
-        "Chapter 3." if chapter3_avail:
+        "Chapter 3 - Replacement_Script (Part 1, Hareka)" if chapter3_avail:
             jump chapter3_select
+        #"Chapter 4 - The Journey of Revenge (Part 2, Hareka)" if chapter4_avail:
+            #jump chapter4_select
     menu chapter1_select (screen="gridchoice", cols=1, rows=5):
         "Please choose a day."
         "Day 1.":
@@ -32,7 +34,7 @@ label chapter_select:
             jump chapter2_day2
         "Day 3." if chapter2_day3_avail:
             jump chapter2_day3
-    menu chapter3_select (screen="gridchoice", cols=3, rows=5):
+    menu chapter3_select (screen="gridchoice", cols=3, rows=6):
         "Please choose a day."
         "Day 1.":
             jump chapter3_day1
@@ -60,6 +62,11 @@ label chapter_select:
             jump chapter3_day12
         "Day 13." if chapter3_day13_avail:
             jump chapter3_day13
+        "Day 14." if chapter3_day14_avail:
+            jump chapter3_day14
+    #menu chapter4_select (screen="gridchoice", cols=1, rows=1):
+        #"Day 1.":
+            #jump chapter4_day1
 ###
 # DAY LOG FOR DEVS #
 ###
