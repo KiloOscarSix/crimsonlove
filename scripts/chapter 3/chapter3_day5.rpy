@@ -110,7 +110,7 @@ label chapter3_day5:
     kana "If you want to quit, fine."
     kana "I'll send Terminal Service to pick you up."
     "I stop dead in my tracks."
-    my "...Terminal Dervice?"
+    my "...Terminal Service?"
     show kana arbiter eyes_closed normal
     kana "Her entire existence is to perform this job. Without this job, she'll be Terminated with immediate effect."
     my "..."

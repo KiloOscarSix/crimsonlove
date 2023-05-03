@@ -450,5 +450,4 @@ label chapter1_day5_moraalmostkill:
     scene black
     with fade
     centered "End of day."
-    $ chapter1_day6_avail = True
     jump chapter1_day5_end

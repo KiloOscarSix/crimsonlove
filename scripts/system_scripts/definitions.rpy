@@ -22,6 +22,7 @@ default chapter3_day11_avail = False
 default chapter3_day12_avail = False
 default chapter3_day13_avail = False
 default chapter3_day14_avail = False
+default chapter4_day2_avail = False
 default chapter2_avail = False
 default chapter3_avail = False
 default chapter4_avail = False
@@ -277,6 +278,8 @@ image mora date eyes_closed smile:
 ### HAREKA ###
 define hareka = Character("Hareka", image="hareka", voice_tag="hareka")
 image side hareka = "images/hareka/arbiter/side_normal.png"
+define harekai = Character("Hareka - Interface", image="hareka" and "harekai", voice_tag="hareka")
+image side harekai = "images/hareka/arbiter/alt/side_normal.png"
 # ARBITER #
 image hareka arbiter normal:
     "images/hareka/arbiter/normal.png"
@@ -343,6 +346,21 @@ image hareka arbiter alt hair_down normal:
     zoom 1.75
 image hareka arbiter alt hair_down eyes_closed normal:
     "images/hareka/arbiter/alt/hair_down/eyes_closed_normal.png"
+    zoom 1.75
+image hareka arbiter ringdev normal:
+    "images/hareka/arbiter/ringdev/normal.png"
+    zoom 1.75
+image hareka arbiter ringdev eyes_closed normal:
+    "images/hareka/arbiter/ringdev/eyes_closed_normal.png"
+    zoom 1.75
+image hareka arbiter ringdev smile:
+    "images/hareka/arbiter/ringdev/smile.png"
+    zoom 1.75
+image hareka arbiter ringdev eyes_closed smile:
+    "images/hareka/arbiter/ringdev/eyes_closed_smile.png"
+    zoom 1.75
+image hareka arbiter ringdev blur:
+    "images/hareka/arbiter/ringdev/blur.png"
     zoom 1.75
 # CASUAL #
 image hareka casual normal:
@@ -494,6 +512,35 @@ image milly school eyes_closed sad:
     "images/milly/school/eyes_closed_sad.png"
     zoom 1.75
 
+# RILEY #
+define riley = Character("Riley", image="riley", voice_tag="riley")
+image side riley = "images/riley/arbiter/side_normal.png"
+# ARBITER #
+image riley arbiter normal:
+    "images/riley/arbiter/normal.png"
+    zoom 1.75
+image riley arbiter eyes_closed normal:
+    "images/riley/arbiter/eyes_closed_normal.png"
+    zoom 1.75
+image riley arbiter no_coat normal:
+    "images/riley/arbiter/no_coat/normal.png"
+    zoom 1.75
+image riley arbiter no_coat eyes_closed normal:
+    "images/riley/arbiter/no_coat/eyes_closed_normal.png"
+    zoom 1.75
+image riley arbiter alt normal:
+    "images/riley/arbiter/alt/normal.png"
+    zoom 1.75
+image riley arbiter alt eyes_closed normal:
+    "images/riley/arbiter/alt/eyes_closed_normal.png"
+    zoom 1.75
+image riley arbiter alt_2 normal:
+    "images/riley/arbiter/alt_2/normal.png"
+    zoom 1.75
+image riley arbiter alt_2 eyes_closed normal:
+    "images/riley/arbiter/alt_2/eyes_closed_normal.png"
+    zoom 1.75
+
 ### BACKGROUND DEFINITIONS ###
 image bg apartment exterior = "images/backgrounds/Apartment_Exterior.png"
 image bg apartment exterior night = "images/backgrounds/Apartment_Exterior_Night.png"
@@ -564,4 +611,7 @@ image bg jail:
     zoom 2.4
 image bg library:
     "images/backgrounds/library_rain.png"
+    zoom 2.4
+image bg office evening:
+    "images/backgrounds/office_evening.png"
     zoom 2.4
