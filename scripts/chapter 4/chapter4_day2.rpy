@@ -138,3 +138,15 @@ label chapter4_day2:
     "I get home and collapse into the bed."
     "It's early morning, but I'm absolutely exhausted..."
     "So I sleep."
+    
+   centered "A few hours later..."
+   
+   scene bg city afternoon
+   with fade
+   "I find myself back in the city once more."
+   "My sleep was nice, and when I woke up, I realised I have to find Hareka again, and talk some damn sense into her."
+   "I think she's just drunk on power... If I can get her to see what she's doing..."
+   "I wander around for a while, occasionally asking the odd person if they know where the Arbiter Office is, but people either don't know what it is, or don't know where it is."
+   "An hour later and I've gotten nowhere."
+   "I plop on a bench, exhausted and frustrated."
+   "They sure do keep their existence hidden well..."
