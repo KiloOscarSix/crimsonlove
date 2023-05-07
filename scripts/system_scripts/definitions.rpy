@@ -541,6 +541,17 @@ image riley arbiter alt_2 eyes_closed normal:
     "images/riley/arbiter/alt_2/eyes_closed_normal.png"
     zoom 1.75
 
+# LIA #
+define lia = Character("Lia", image="lia", voice_tag="lia")
+image side lia = "images/lia/casual/side_normal.png"
+# CASUAL #
+image lia casual normal:
+    "images/lia/casual/normal.png"
+    zoom 1.75
+image lia casual eyes_closed normal:
+    "images/lia/casual/eyes_closed_normal.png"
+    zoom 1.75
+
 ### BACKGROUND DEFINITIONS ###
 image bg apartment exterior = "images/backgrounds/Apartment_Exterior.png"
 image bg apartment exterior night = "images/backgrounds/Apartment_Exterior_Night.png"

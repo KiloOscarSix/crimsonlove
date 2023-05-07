@@ -150,3 +150,21 @@ label chapter4_day2:
     "An hour later and I've gotten nowhere."
     "I plop on a bench, exhausted and frustrated."
     "They sure do keep their existence hidden well..."
+    "I keep an eye out for any potential Arbiters wandering around."
+    "The streets are fairly quiet, as it is a cold Tuesday and everyone is at home or at work/school..."
+    "I shiver as a cold wind blasts through me."
+    "I almost forgot it's {i}January...{/i}"
+    "After resting for a few minutes, I go back to asking around for help."
+    "Finally, I find someone who knows where it is."
+    "However..."
+    show lia casual normal
+    "???" "What is your business with the Office?"
+    "She is very skeptical."
+    my "I have some personal business with the Head."
+    show lia casual eyes_closed normal
+    "She scoffs."
+    "???" "Is that so."
+    show lia casual normal
+    "???" "Fine. Follow me."
+    "Wow, it was that easy?"
+    "I follow the girl."
