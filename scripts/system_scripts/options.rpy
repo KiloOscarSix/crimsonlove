@@ -38,6 +38,10 @@ Noraneko Games = Backgrounds ({a=https://noranekogames.itch.io/}link{/a})
 Toritama = Sprites ({a=https://picrew.me/en/image_maker/1771678}link{/a})
 
 Fluffness = Some Backgrounds ({a=https://cloudnovel.net/fluffness}link{/a})
+
+---
+
+{b}This game is dedicated to Alessa Marie Scottson, who unfortunately passed away mid-development. She was the one who started this project, and we plan to finish it to commemorate her.{/b}
 """)
 
 
