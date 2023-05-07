@@ -12,93 +12,54 @@ label chapter1_day2:
     "I can't wait for spring to arrive..."
     "???" "Hey!"
     "I look up."
-    show angela casual talk
-    with easeinright
+    show angela casual talk with easeinright
     angela "Hello!"
-    my "Oh, Angela! Hello!"
-    my "What are you doing here?"
-    angela "I'm heading to work!"
-    angela "I assume you're doing the same?"
-    my "Yeah..."
-    my "Do you work close to the venue?"
-    angela "Hm..."
-    angela "I'd say pretty close by!"
-    my "Oh wow, what a coincidence!"
-    angela "Yeah, ahaha!"
-    angela "Mind if I sit with you?"
-    my "Sure!"
-    "She takes a seat beside me."
-    my "I actually saw Zena on the train too, yesterday..."
+    my "Oh, hello!"
+    my "I didn't think I'd see you here!"
+    angela "Yeah, well, it appears that my workplace is pretty close to yours!"
+    my "Wow… What a coincidence!"
+    angela "Yep! Do you mind if I sit next to you?"
+    my "Not at all!"
+    angela "Thank you."
     show angela casual normal
-    angela "Oh, yeah, she often takes this route."
-    my "Think we'll meet her today?"
-    angela "Probably!"
-    show angela casual eyes_closed normal
-    angela "She may seem rude, but she just struggles with communicating..."
-    my "Yeah, thought so."
-    my "I know she's not rude, don't worry."
-    angela "I'm glad then..."
-    my "I could tell how much fun she was having on stage next to you all."
-    show angela casual eyes_closed talk
-    angela "It's so shiny, on the stage..."
-    angela "I love it!"
-    angela "I'm sure we all do!"
-    my "Yeah..."
-    my "I wonder what it'd be like to be on stage myself..."
-    show angela casual talk
-    angela "Maybe you could join us! Haha!"
-    my "Ehh... Who knows, maybe one day."
-    show angela casual normal
-    angela "You would be a great idol, I think."
-    my "Thanks..."
-    angela "You're welcome!"
-    "We sit in silence for a few moments."
-    "The train stops at a station, and on steps..."
+    "She sits down next to me."
+    my "Funnily enough, I saw Zena on the train yesterday too… I didn't know it was her at the time, though."
+    angela "Oh, yeah, she often takes this route in the morning, since she has business in the city a lot."
+    my "Is that so…"
+    "Angela chuckles."
+    angela "We'll probably see her today, too!"
+    my "Oh! That'd be nice!"
+    "We chat about our different jobs, and our plans for after work, until the train stops at a certain place, and on steps…"
     show angela at left
     show zena newstudent normal at right
-    my "Good morning Zena!"
-    zena "..."
-    angela "Eheh."
-    "She sits down next to Angela, avoiding eye contact."
-    "I smile."
-    my "That's okay, you don't have to talk to me."
-    show zena newstudent eyes_closed normal
-    "She closes her eyes and takes a few deep breaths."
-    show angela casual talk
-    angela "She's regulating."
-    my "I see..."
-    angela "Getting to the train takes a lot outta her, I suppose."
-    my "That's fair."
-    my "There's no rush to these things. I want her to feel comfortable with me."
+    my "Good morning, Zena!"
+    zena "Good morning."
+    "She sits next to Angela, taking a few deep breaths."
+    show angela casual eyes_closed normal
+    angela "Sometimes getting to the train station on time takes a lot out of her."
+    my "That's understandable."
     show angela casual eyes_closed talk
-    angela "How kind..."
-    "The train ride continues."
-    hide angela
-    hide zena
+    angela "I'm glad you're so understanding."
     "{b}{u}Ten minutes later...{/u}{/b}"
-    show angela casual normal at left
-    show zena newstudent normal at right
-    "The train announcer lets us know it's our stop."
-    "We stand up, gathering our things."
-    "The train halts, and we get off together."
+    show angela casual normal
+    "The train announcer tells us it's our stop. We stand up, gathering our things, and exit the train."
 
     scene bg city raining
-    with wipeleft
     show angela casual normal at left
     show zena newstudent normal at right
-    my "Will y\'all be okay?"
+    with fade
+    "We step out of the train station. The rain is very heavy. I put my hood up."
+    my "Will y'all be okay in this?"
     angela "We'll be fine!"
-    "Angela pulls out an umbrella."
-    angela "Well, it was nice seeing you!"
-    my "Yep, bye!"
-    angela "Bye!"
-    show zena newstudent eyes_closed normal
-    zena "..."
+    "She grabs her umbrella from her bag, opening it up, and ushering Zena underneath it."
+    angela "Well, it was nice seeing you again! Bye!"
+    my "Bye!"
+    zena "Goodbye."
     hide angela
     hide zena
     with moveoutright
-    "They both walk away."
-    "I head to work myself."
+    "They leave."
+    "I head to my own work."
 
     scene bg stage
     with wipeleft
