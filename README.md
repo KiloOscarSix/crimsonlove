@@ -10,4 +10,4 @@ Lead Developer: [Jayde Abigail Scottson](https://github.com/jaydeslibrary)
 
 Developers: [Ayin Vrinsky](https://github.com/umikodev) & [Isla-Mae Moreno](https://github.com/isla-mae-moreno)
 ## Commemoration
-This game was originally started by Alessa Marie Scottson but unfortunately she got killed in a freak car accident. It is our goal to finish what she'd started and this game is to commemorate her.
+This video game was originally started by Alessa Marie Scottson, whom unfortunately passed away while making it. It is our goal to finish what she'd started and commemorate her legacy.
