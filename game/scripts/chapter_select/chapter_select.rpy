@@ -72,5 +72,5 @@ label chapter_select:
         "Please choose a day."
         "Day 1.":
             jump chapter4_day1
-        "Day 2.":
+        "Day 2." if chapter4_day2_avail:
             jump chapter4_day2
