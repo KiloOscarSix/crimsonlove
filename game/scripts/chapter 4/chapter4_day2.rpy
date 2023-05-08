@@ -168,3 +168,133 @@ label chapter4_day2:
     "???" "Fine. Follow me."
     "Wow, it was that easy?"
     "I follow the girl."
+
+    scene bg cafeteria day
+    show lia casual normal
+    with fade
+    "We head to a large building, and she leads me to the cafeteria."
+    "???" "Since it's lunch time now, she should be in here somewhere."
+    my "Oh, that makes sense."
+    "We look around for her."
+    "After a bit of asking people, and scanning the area, we find her."
+    show hareka arbiter alt normal
+    hide lia
+    with fade
+    harekai "I thought I told you to leave."
+    my "Hello to you too..."
+    my "I did leave, for the record. I just decided to come back."
+    harekai "Why? You're a nuisance."
+    my "..."
+    "Ouch. That hurt."
+    my "Well, I personally think that-"
+    harekai "I don't care what you think. Leave."
+    "She's so fucking stubborn..."
+    "I clench my fists in frustration."
+    my "Just listen to me for a moment!"
+    show hareka arbiter alt eyes_closed normal
+    harekai "Fine."
+    my "Good."
+    "I clear my throat."
+    my "Did you forget that we were friends?"
+    show hareka arbiter alt normal
+    harekai "No. I remember."
+    my "Well, friends don't just ditch each other!"
+    my "You can't just chuck me out after all we've gone through!"
+    harekai "Yes, I can, because I did."
+    "I groan."
+    my "You're so damn frustrating..."
+    show hareka arbiter alt eyes_closed normal
+    harekai "Look, there's nothing I can do at this point. You aren't monitored anymore, so we can't be together even if I wanted to."
+    my "Oh?"
+    my "Fine. I'll give you a reason to put me back on monitoring."
+    show hareka arbiter alt normal
+    harekai "What do you mean? You can't do anything here."
+    my "Wanna bet?"
+    "I grab a chair and throw it in her direction."
+    hide hareka with hpunch
+    "She falls to the floor with force."
+    "I laugh."
+    my "Is that enough? Should I threaten you further??"
+    harekai "Ow..."
+    "She holds her hand to her head."
+    "Blood drips down."
+    "She stands up shakily."
+    show hareka arbiter alt eyes_closed normal with hpunch
+    harekai "Ow."
+    "I forgot she was human now. Shit."
+    "Employee #1" "Oh my gosh, are you okay??"
+    "Employee #2" "Someone get her first aid!"
+    show hareka arbiter alt normal
+    harekai "For fuck sake, now you've caused a scene."
+    harekai "Are you happy now??"
+    my "Well, I did what I needed to do."
+    harekai "Sigh."
+    hide hareka with moveoutleft
+    "She leaves, clutching her head."
+    "I turn back to the girl."
+    show lia casual normal
+    lia "Wow. I'd never have the guts to do that."
+    my "I didn't really mean to go {i}that{/i} hard... But I think she's learned what I want."
+    lia "I bet she did."
+    hide lia
+    "I sit down, waiting for her to return."
+    "{b}{u}A while later...{/u}{/b}"
+    "Eventually, she returns."
+    show hareka arbiter alt normal
+    with moveinleft
+    harekai "You know, you always call me frustrating, but you're just as fucking annoying sometimes."
+    my "As long as I got what I want."
+    show hareka arbiter alt eyes_closed normal
+    harekai "..."
+    harekai "I don't have a choice."
+    show hareka arbiter alt normal
+    harekai "From this moment onwards, you're being permanently put under 24/7 monitoring for attacking several Arbiters, as well as breaking Law 613."
+    my "Rule 613?"
+    show hareka arbiter alt eyes_closed normal
+    harekai "Rule 613: Corrupting the Script by external means."
+    my "What??"
+    my "What script???"
+    show hareka arbiter alt normal
+    harekai "I cannot say."
+    "Ugh..."
+    "Well, at least I got what I want. Apparently it's permanent, too."
+    harekai "Come with me."
+    my "Ah- Okay..."
+
+    scene bg office day
+    show hareka arbiter alt normal
+    with fade
+    "We head up to the Head Office."
+    "She grabs a bag and begins packing some things."
+    my "Are we going back to the apartment?"
+    harekai "Yes. That is the best place for a controlled environment."
+    my "Oh... Okay, I'm fine with that."
+    harekai "It isn't relevant whether you're fine with it. It is what it is."
+    my "Eh..."
+    "I can tell she's inherited some traits of the previous Interface."
+    "She finishes packing."
+    harekai "Right, let's go."
+    my "Okay."
+
+    scene bg bedroom day
+    show hareka arbiter alt eyes_closed normal
+    with fade
+    "We arrive back at the apartment."
+    my "Home..."
+    show hareka arbiter alt normal
+    harekai "Do you consider this your home?"
+    my "Yeah, sort of. I'm just used to it by now."
+    harekai "Oh."
+    "Hareka unpacks the stuff."
+    harekai "So, we begin again."
+    my "Yep..."
+    "I smile."
+    harekai "Did you get lunch there?"
+    my "Nope."
+    harekai "Let's make lunch then."
+    my "Okay!"
+
+    scene bg kitchen day
+    show hareka arbiter alt normal
+    with fade
+    "We head into the kitchen."
